@@ -27,3 +27,9 @@ ddpg.py
 ## 10.1.2 A3C DDPG：
 
 A3C-DDPG.py
+
+## 联系作者
+
+### 邮箱：zhenbinye@gmail.com
+
+### 代码持续更新，您若有改进建议或者问题请联系作者

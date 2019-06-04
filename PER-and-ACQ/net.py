@@ -1,6 +1,7 @@
 import torch
 from torch import nn
 
+
 class AtariNet(nn.Module):
 
     def __init__(self, num_actions):

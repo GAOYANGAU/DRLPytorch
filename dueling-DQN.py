@@ -124,6 +124,7 @@ class Agent(object):
         loss.backward()
         self.optimizer.step()
 
+
 agent = Agent()
 
 for i_episode in range(TOTAL_EPISODES):

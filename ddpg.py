@@ -30,7 +30,9 @@ class ReplayBuffer(object):
             d.append(np.array(D, copy=False))
         return np.array(x), np.array(y), np.array(u), np.array(r).reshape(-1, 1), np.array(d).reshape(-1, 1)
 
+
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
 
 class Actor(nn.Module):
     def __init__(self, state_dim, action_dim, max_action):

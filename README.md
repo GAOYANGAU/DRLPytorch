@@ -7,7 +7,9 @@ native-Qlearning.py
 ## 6 Deep Learning：
 
 feedforward_neural_network
+
 convolutional_neural_network
+
 recurrent_neural_network
 
 ## 8.1 NIPS DQN：
